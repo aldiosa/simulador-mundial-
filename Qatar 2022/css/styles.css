@@ -1,0 +1,33 @@
+
+
+.fondo_labels{
+	position: relative;
+	top: -80px;
+}
+
+.data-hora-local{
+	position: relative;
+	top: -631px;
+	right: 1px;
+}
+.explicacion{
+	position: relative;
+	top: -548px;
+	left: -35px;
+}
+.imgSelector{
+	width: 43px;	
+}
+
+.reiniciar{
+	position: absolute;
+	top: 187px;
+	left: 398px;	
+	display:none;
+}
+@media only screen and(max-width:600px){
+.data-hora-local {
+    position: relative;
+    top: -278px;
+}
+}

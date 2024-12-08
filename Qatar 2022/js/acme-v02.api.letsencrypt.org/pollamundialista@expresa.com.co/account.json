@@ -1,0 +1,12 @@
+{
+	"email": "pollamundialista@expresa.com.co",
+	"registration": {
+		"body": {
+			"status": "valid",
+			"contact": [
+				"mailto:pollamundialista@expresa.com.co"
+			]
+		},
+		"uri": "https://acme-v02.api.letsencrypt.org/acme/acct/218291450"
+	}
+}

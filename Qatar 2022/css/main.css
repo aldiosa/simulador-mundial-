@@ -1,0 +1,990 @@
+ {
+	width: 940px;
+	height: auto;
+}
+ h1{
+	font: 38px/46px 'OGlobox-condensed-Semibold', 'Times New Romans', sans-serif;
+	color: #074760;
+}
+ h2{
+	font: 25px/30px 'OGlobox-condensed-Semibold', 'Times New Romans', sans-serif;
+	color: #074760;
+}
+ #topo{
+	width: 940px;
+	height: 150px;
+}
+ .maiusc{
+	text-transform: uppercase;
+}
+ .centro{
+	text-align: center;
+	width: 940px;
+}
+ .left{
+	float: left;
+}
+ .right{
+	float: right;
+}
+ #tarja_cinza{
+	width: 960px;
+	margin-left: -10px;
+	height: 53px;
+	background-color: #E1E1E1;
+}
+ .bg_verde{
+	background: #6FABB3 url('../imgs/bg_seta_topo.jpg') no-repeat top right;
+	width: 137px;
+	height: 33px;
+	color: #fff;
+	font: 12px/16px Arial, Tahoma;
+	padding: 10px 0 10px 15px;
+}
+ .dica{
+	font:9px/10px Arial, Tahoma;
+	color: #3C3D3D;
+}
+ #um{
+	background: transparent url('../imgs/img_dica_um.png') no-repeat top left;
+	padding-left: 52px;
+	width: 124px;
+	margin-top: 6px;
+	margin-left: 41px;
+}
+ #dois{
+	background: transparent url('../imgs/img_dica_dois.png') no-repeat top left;
+	padding-left: 99px;
+	margin-top: 6px;
+	margin-left: 42px;
+	width: 140px;
+}
+ #tres{
+	background: transparent url('../imgs/img_dica_tres.png?id=123') center left no-repeat;
+	padding-left: 72px;
+	margin-top: 6px;
+	width: 141px;
+	margin-left: 30px;
+}
+
+ #tres span {
+	margin-left: 17px;
+}
+ .num{
+	width: 23px;
+	height: 40px;
+	background-color: #6FABB3;
+	font: 38px/46px 'OGlobox-condensed-Semibold', 'Times New Romans', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-right: 6px;
+	padding-bottom: 2px;
+}
+ #fases {
+	width: 940px;
+	height: 30px;
+	float: left;
+	margin-top: 25px;
+	color: #6FABB3;
+	font: 16px/19px Arial, Tahoma;
+}
+ #fases .tipo{
+	width: 83px;
+	margin-right: 59px;
+	text-align: center;
+}
+ #fases .tipo.first{
+	text-align: left;
+}
+ #fases .tipo.last{
+	margin-right: 0;
+	text-align: right;
+}
+ #simulador{
+	width: 940px;
+	height: 475px;
+	position: relative;
+}
+ #tooltip_apagar{
+	width: 90px;
+	height: 35px;
+	background: transparent url("../imgs/tooltip_apagar.png") center center no-repeat;
+	position: absolute;
+	z-index: 5;
+	display: none;
+	cursor: pointer;
+}
+ #tooltip_apagar > img{
+	margin-top: 9px;
+	cursor: pointer;
+	vertical-align: top;
+}
+ .apagar{
+	margin-left: 18px;
+	line-height: 29px;
+	font-size: 12px;
+}
+ #tooltip_bloqueado{
+	width: 193px;
+	height: 43px;
+	background: transparent url("../imgs/tooltip_bloqueado.png") center center no-repeat;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 11px;
+	line-height: 11px;
+	position: absolute;
+	z-index: 5;
+	display: none;
+}
+
+ #btn_compartilhar {
+	width:233px;
+	height:48px;
+	position:absolute;
+	background:url(../imgs/btn_compartilhar.png) no-repeat 0 0;
+	z-index: 10;
+	left: 470px;
+	top: -70px;
+	display: none;
+	cursor: pointer;
+}
+
+#elegir-seleccion{
+	width: 195px;
+	height: 195px;
+	padding: 25px 0 25px 38px;
+	background: transparent url("../img/tooltip_quatro.png") center center no-repeat;
+	position: absolute;
+	z-index: 15;
+	display: none;
+}
+
+
+ #elegir-seleccion.dois{
+	height: 100px;
+    padding: 22px 0 25px 38px;
+	background: transparent url("../img/tooltip_dois.png") 0 0 no-repeat;
+
+}
+
+
+ #elegir-seleccion .pais{
+	margin-right: 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+ #tooltip_dois{
+	width: 157px;
+	height: 75px;
+	padding: 25px 0 25px 38px;
+	background: transparent url("../imgs/tooltip_dois.png") center center no-repeat;
+	position: absolute;
+	z-index: 5;
+	display: none;
+}
+ #tooltip_dois .pais{
+	margin-right: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+ #tabelas{
+	width: 940px;
+	height: 868px;
+}
+ .grupo{
+	width: 222px;
+	height: 317px;
+	overflow: hidden;
+	padding: 6px 0;
+	margin-right: 10px;
+	margin-bottom: 32px;
+	background: transparent url('../imgs/bg_grupo.png') 0 0 no-repeat;
+	border-top: #B7C7C7 solid 3px;
+	border-left: #B7C7C7 solid 1px;
+	border-right: #B7C7C7 solid 1px;
+	border-bottom: #B7C7C7 solid 1px;
+}
+ .nomeGrupo{
+	color: #B7C7C7;
+	font: 20px/24px Arial, Tahoma;
+	margin:0 10px;
+}
+ .letra{
+	color: #366981;
+	font-weight: bold;
+}
+ .paises{
+	width: 222px;
+	margin-top: 5px;
+	height: auto;
+	overflow: hidden;
+	display: table;
+}
+ .pais{
+	width: 53px;
+	height: 70px;
+	font: 9px/10px Arial, Tahoma;
+	text-align: center;
+	color: #366981;
+	float: left;
+	display: block;
+}
+ .tituloGrupo{
+	width: 208px;
+	padding: 0 7px;
+	font: 10px/10px Arial, Tahoma;
+	color: #366981;
+	height: 12px;
+}
+ .jogos{
+	width: 212px;
+	height: 215px;
+	margin-left: 5px;
+}
+ .jogo{
+	width: 212px;
+	height: 20px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	/*height: auto;
+	overflow: hidden;*/
+}
+ .status{
+	background-color: #E1E1E1;
+	width:64px;
+	height: 12px;
+	color: #5A5B5B;
+	font: 10px/10px Arial, Tahoma;
+}
+ .dia{
+	margin-left: 3px;
+}
+ .hora{
+	margin-left: 11px;
+	font-size: 9px;
+}
+ .local{
+	margin-right: 3px;
+}
+ .bandeira{
+	width: 18px;
+	height: 29px;
+	margin-top: -9px;
+}
+ .placar{
+	width: 24px;
+	height: 30px;
+	margin-top: -8px;
+}
+ .placar.dir{
+	background: transparent url("../imgs/bg_placar_dir.png") no-repeat 0 0; 
+}
+ .placar.esq{
+	background: transparent url("../imgs/bg_placar_esq.png") no-repeat 0 0; 
+}
+ .classif{
+	width: 212px;
+	margin-left: 5px;
+	border-top: 1px  solid #BFBDBD;
+	border-bottom: 1px  solid #BFBDBD;
+	display: inline-block;
+}
+ .linha{
+	width: 212px;
+	margin-left: 5px;
+	height: 15px;
+	margin-bottom: 1px;
+	font:9px/13px Arial, Tahoma; 
+}
+ .linha.primeiro{
+	margin-top: -6px;
+}
+ .linha.cinza{
+	background-color: #E1E1E1;
+}
+ .classificacao{
+	padding-left: 4px;
+	width: 80px;
+	color: #C0D4D2;
+}
+ .time{
+	padding-left: 4px;
+	width: 80px;
+}
+ .pontos {
+	width:16px;
+}
+ .azulMarinho {
+	color: #366981;
+}
+ .grafite {
+	color: #5A5B5B;
+}
+
+
+/* ************* AYRTON ************ */
+
+ h1, 
+ #topo,
+ #simulador {
+	/*display: none;*/
+}
+
+ #simulador_copa_linhas,
+ #selecoes_simulador,
+ #labels_simulador,
+ #simulador_copa_linhas {
+
+	width: 920px;
+	height: 349px;
+	position: absolute;
+	/*display: none;*/
+	left: 10px;
+}
+
+ #simulador_copa_linhas {
+	z-index: 10;
+}
+#data-hora-local {
+	width: 100%; /* Ancho relativo al contenedor */
+	height: auto; /* Altura proporcional al ancho */
+	position: relative;
+	background: url(../imgs/data-hora-local.png?id=123) no-repeat center center;
+	background-size: cover; /* La imagen cubre el contenedor */
+	top: 0; /* Elimina el ajuste de posición en la parte superior */
+	left: 0; /* Elimina el ajuste de posición a la izquierda */
+  }
+  
+  @media screen and (max-width: 768px) {
+	#data-hora-local {
+	  width: 100%; /* Asegura que el contenedor ocupe todo el ancho en móviles */
+	  height: auto; /* Mantiene la proporción */
+	  top: 0;
+	  left: 0;
+	}
+  }
+/*
+ #data-hora-local {
+	width: 920px;
+	height: 409px;
+	position: relative;
+	background: url(../imgs/data-hora-local.png?id=123) no-repeat 0 0;
+	top: -1px;
+	left: 8px;
+}
+*/
+ #nome_selecoes {
+	width: 920px;
+	height: 349px;
+	position: absolute;
+	top: 39px;
+	left: 6px;	
+	font-family:arial, tahoma;
+	text-transform: uppercase;
+	color: #366981;
+	font-size: 9px;
+}
+
+ #nome_selecoes .nome {
+	width: 93px;
+	height: 16px;
+	position: absolute;
+	margin: -2px 0 0 2px;
+}
+
+ #nome_selecoes #nome15,
+ #nome_selecoes #nome16,
+ #nome_selecoes #nome17,
+ #nome_selecoes #nome18,
+ #nome_selecoes #nome19,
+ #nome_selecoes #nome20 {
+	text-align: center;
+}
+
+
+ #nome_selecoes #nome21,
+ #nome_selecoes #nome22,
+ #nome_selecoes #nome23,
+ #nome_selecoes #nome24,
+ #nome_selecoes #nome25,
+ #nome_selecoes #nome26,
+ #nome_selecoes #nome27,
+ #nome_selecoes #nome28,
+ #nome_selecoes #nome29,
+ #nome_selecoes #nome30,
+ #nome_selecoes #nome31,
+ #nome_selecoes #nome32,
+ #nome_selecoes #nome33,
+ #nome_selecoes #nome34 {
+	text-align: right;
+	margin:-2px 4px 0 0;
+}
+
+
+ #simulador_copa_linhas,
+{
+	height: 382px;
+	top: 33px;
+}
+
+ #simulador_copa_linhas {
+	display: block;
+}
+
+ #labels_simulador {
+	top: 0;
+	height: 408px;
+	background: transparent url(../imgs/fundo_labels.jpg) no-repeat 0 0;
+	position: relative;
+	left: 9px;
+}
+
+
+{
+	z-index: 12;
+}
+
+ #btn_apagar {
+	width: 100px;
+	height: 20px;
+	background-color: #fff;
+	border: 1px solid #d1d1d1;
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+}
+
+#elegir-seleccion {
+	width: 200px;
+	height: 195px;
+	z-index: 5;
+	background-color: #fff;
+	position: absolute;
+	display: none;
+}
+
+ #btn_jogar {
+	width: 80px;
+	height: 103px;
+	background: url(../imgs/jogar.jpg) no-repeat 0 0;
+	position: absolute;
+	left: 419px;
+	cursor: pointer;
+    top: 120px;
+    display: none;
+}
+
+ #btn_jogar:hover {
+	background: url(../imgs/jogar-mouseover.jpg) no-repeat 0 0;
+}
+
+#elegir-seleccion .btn_fechar {
+	background-color: #ccc;
+	color:#000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+#elegir-seleccion li {
+	width: 60px;
+	float: left;
+	padding: 15px;
+	list-style: none;
+	border-right:1px solid #BCBEC0;
+	border-bottom: 1px solid #BCBEC0;
+	height: 50px;
+
+}
+
+#elegir-seleccion .last {
+	border: none;
+}
+
+
+.col {
+	width: 26px;
+	height: 349px;
+	position: absolute;
+}
+
+/*.col:nth-child(even) {
+	background-color: #ccc;
+}
+
+.col:nth-child(odd) {
+	background-color: #eee;
+}
+*/
+#col1 {
+	left: 103px;
+	top: 33px;
+}
+
+#col2 {
+	left: 235px;
+	top: 33px;
+}
+
+#col3 {
+	left: 363px;
+	top: 33px;
+}
+
+#col4 {
+	left: 387px;
+	top: 40px;
+}
+
+#col5 {
+	left: 471px;
+	top: 40px;
+}
+
+#col6 {
+	left: 510px;
+	top: 40px;
+}
+
+#col7 {
+	left: 536px;
+	top: 33px;
+}
+
+#col8 {
+	left: 668px;
+	top: 33px;
+}
+
+#col9 {
+	left: 795px;
+	top: 33px;;
+}
+
+.time {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time2 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time3 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time4 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time5 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time6 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+.time7 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time8 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time9 {
+	width: 26px;
+	height: 43px;
+	position: absolute;
+	cursor: pointer;
+	background: url(../img/remeras/remera-vacia.png) no-repeat 0 0;
+}
+
+.time.inativo {
+	cursor: default;
+}
+
+
+#A1,
+#B1 {
+	top: -14px;
+}
+
+#B2,
+#A2 {
+	top: 31px;
+}
+
+#C1,
+#D1 {
+	top: 82px;
+}
+
+#D2,
+#C2 {
+	top: 126px;
+}
+
+#E1,
+#F1 {
+	top: 175px;
+}
+
+#F2,
+#E2 {
+	top: 220px;
+}
+
+
+#G1,
+#H1 {
+	top: 271px;
+}
+
+
+#H2,
+#G2 {
+	top: 315px;
+}
+
+
+#quarta1,
+#quarta5 {
+	top: 34px;
+}
+
+#quarta2,
+#quarta6 {
+	top: 77px;
+}
+
+#quarta3,
+#quarta7 {
+	top: 223px;
+}
+
+#quarta4,
+#quarta8 {
+	top: 267px;
+}
+
+
+#semi1,
+#semi3 {
+	top: 129px;
+}
+
+#semi2,
+#semi4 {
+	top: 172px;
+}
+
+#fin_campeao_1,
+#fin_campeao_2 {
+	top: 59px;
+}
+
+
+#fin_bronze_1,
+#fin_bronze_2 {
+	top: 227px;
+}
+
+#campeao_ouro {
+	top: -31px;
+}
+
+#campeao_bronze_1 {
+	top: 317px;
+}
+
+ #simulador .time.alemanha{
+	background: transparent url('../imgs/alemanha.png') no-repeat 0 0;
+}
+ #simulador .time.argelia{
+	background: transparent url('../imgs/argelia.png') no-repeat 0 0;
+}
+ #simulador .time.argentina{
+	background: transparent url('../imgs/argentina.png') no-repeat 0 0;
+}
+ #simulador .time.australia{
+	background: transparent url('../imgs/australia.png') no-repeat 0 0;
+}
+ #simulador .time.belgica{
+	background: transparent url('../imgs/belgica.png') no-repeat 0 0;
+}
+ #simulador .time.bosnia-herzegovina{
+	background: transparent url('../imgs/bosnia-herzegovina.png') no-repeat 0 0;
+}
+ #simulador .time.brasil{
+	background: transparent url(../imgs/brasil.png) no-repeat 0 0;
+
+}
+ #simulador .time.camaroes{
+	background: transparent url('../imgs/camaroes.png') no-repeat 0 0;
+}
+ #simulador .time.chile{
+	background: transparent url('../imgs/chile.png') no-repeat 0 0;
+}
+ #simulador .time.colombia{
+	background: transparent url('../imgs/colombia.png') no-repeat 0 0;
+}
+ #simulador .time.coreia-do-sul{
+	background: transparent url('../imgs/coreia-do-sul.png') no-repeat 0 0;
+}
+ #simulador .time.costa-do-marfim{
+	background: transparent url('../imgs/costa-do-marfim.png') no-repeat 0 0;
+}
+
+ #simulador .time.costa-rica{
+	background: transparent url('../imgs/costa-rica.png') no-repeat 0 0;
+}
+ #simulador .time.croacia{
+	background: transparent url('../imgs/croacia.png') no-repeat 0 0;
+}
+ #simulador .time.equador{
+	background: transparent url('../imgs/equador.png') no-repeat 0 0;
+}
+ #simulador .time.espanha{
+	background: transparent url('../imgs/espanha.png') no-repeat 0 0;
+}
+ #simulador .time.eua{
+	background: transparent url('../imgs/eua.png') no-repeat 0 0;
+}
+ #simulador .time.franca{
+	background: transparent url('../imgs/franca.png') no-repeat 0 0;
+}
+ #simulador .time.gana{
+	background: transparent url('../imgs/gana.png') no-repeat 0 0;
+}
+ #simulador .time.grecia{
+	background: transparent url('../imgs/grecia.png') no-repeat 0 0;
+}
+ #simulador .time.holanda{
+	background: transparent url('../imgs/holanda.png') no-repeat 0 0;
+}
+ #simulador .time.honduras{
+	background: transparent url('../imgs/honduras.png') no-repeat 0 0;
+}
+ #simulador .time.inglaterra{
+	background: transparent url('../imgs/inglaterra.png') no-repeat 0 0;
+}
+ #simulador .time.ira{
+	background: transparent url('../imgs/ira.png') no-repeat 0 0;
+}
+ #simulador .time.italia{
+	background: transparent url('../imgs/italia.png') no-repeat 0 0;
+}
+ #simulador .time.japao{
+	background: transparent url('../imgs/japao.png') no-repeat 0 0;
+}
+ #simulador .time.mexico{
+	background: transparent url('../imgs/mexico.png') no-repeat 0 0;
+}
+ #simulador .time.nigeria{
+	background: transparent url('../imgs/nigeria.png') no-repeat 0 0;
+}
+ #simulador .time.portugal{
+	background: transparent url('../imgs/portugal.png') no-repeat 0 0;
+}
+ #simulador .time.russia{
+	background: transparent url('../imgs/russia.png') no-repeat 0 0;
+}
+ #simulador .time.suica{
+	background: transparent url('../imgs/suica.png') no-repeat 0 0;
+}
+ #simulador .time.uruguai{
+	background: transparent url('../imgs/uruguai.png') no-repeat 0 0;
+}
+
+ #taca {
+	width: 47px;
+	height: 76px;
+	background: url(../img/taca.png) no-repeat 0 0;
+	left: 420px;
+    position: absolute;
+    top: -36px;
+}
+
+ #medalha {
+	width: 27px;
+	height: 45px;
+	background: url(../img/medalha-3-lugar.png) no-repeat 0 0;
+	left: 430px;
+    position: absolute;
+    top: 357px;
+}
+
+#nomeA1{
+	top: 0;
+	left: -1px;
+}
+#nomeB2{
+	top: 43px;
+	left: -1px;
+}
+#nomeC1{
+	top: 95px;
+	left: -1px;
+}
+#nomeD2{
+	top: 138px;
+	left: -1px;
+}
+#nomeE1{
+	top: 189px;
+	left: -1px;
+}
+#nomeF2{
+	top: 232px;
+	left: -1px;
+}
+#nomeG1{
+	top: 284px;
+	left: -1px;
+}
+#nomeH2{
+	top: 328px;
+	left: -1px;
+}
+#nomequarta1{
+	top: 47px;
+	left: 131px;
+}
+#nomequarta2{
+	top: 90px;
+	left: 131px;
+}
+#nomequarta3{
+	top: 237px;
+	left: 131px;
+}
+#nomequarta4{
+	top: 279px;
+	left: 131px;
+}
+#nomesemi1{
+	top: 141px;
+	left: 261px;
+}
+#nomesemi2{
+	top: 185px;
+	left: 261px;
+}
+#nomefin_campeao_1{
+	top: 97px;
+	left: 364px;
+}
+#nomefin_bronze_1{
+	top: 226px;
+	left: 363px;
+}
+#nomecampeao_ouro{
+	top: 10px;
+	left: 400px;
+}
+#nomecampeao_bronze_1{
+	top: 315px;
+	left: 400px;
+}
+#nomefin_campeao_2{
+	top: 97px;
+	left: 450px;
+}
+#nomefin_bronze_2{
+	top: 226px;
+	left: 451px;
+}
+#nomesemi3{
+	top: 142px;
+	right: 263px;
+}
+#nomesemi4{
+	top: 185px;
+	right: 263px;
+}
+#nomequarta5{
+	top: 48px;
+	right: 132px;
+}
+#nomequarta6{
+	top: 90px;
+	right: 132px;
+}
+#nomequarta7{
+	top: 235px;
+	right: 132px;
+}
+#nomequarta8{
+	top: 279px;
+	right: 132px;
+}
+#nomeB1{
+	top: 0px;
+	right: 1px;
+}
+#nomeA2{
+	top: 43px;
+	right: 1px;
+}
+#nomeD1{
+	top: 95px;
+	right: 1px;
+}
+#nomeC2{
+	top: 138px;
+	right:1px;
+}
+#nomeF1{
+	top: 189px;
+	right:1px;
+}
+#nomeE2{
+	top: 232px;
+	right:1px;
+}
+#nomeH1{
+	top: 284px;
+	right:1px;
+}
+#nomeG2{
+	top: 328px;
+	right:1px;
+}
+
+

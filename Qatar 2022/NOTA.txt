@@ -1,0 +1,15 @@
+Mario, debes copiar los archivos es la carpeta que quieras, tienes que tener en cuenta solo tres cosas
+
+1-Del archivo index.php, podes copiar lo que esta entre <!-- INICIO DE CODIGO --> y <!-- FIN DE CODIGO --> 
+2-Del archivo index.php, tene en cuenta los archivos que llama, como css y los js, tambien fijate que te comente dos lineas, que son el titulo
+y la descripcion, son las mismas que usa facebook a la hora de compartir, podes modificarla a tu antojo.
+3- En la linea 59 del archivo functions.js, vas a encontrar una variable que ahora tiene el valor: 
+
+	var url= "http://narcisoft.com.ar/app_web/simulador";
+	
+Tenes que modificarla con la direccion donde estara alojado todo, por ejemplo http://pollamundialista.com/simulador, o la que quieras.
+
+Creo que con esas 3 cosas ya esta, de ultima me consultas cuando lo instales, no hay drama con eso.
+
+Saludos
+
